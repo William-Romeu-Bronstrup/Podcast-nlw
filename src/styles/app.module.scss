@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+
+    main {
+        flex: 1;
+    }
+   
+}
+
+@media (max-width: 900px) {
+    .wrapper {
+        display: grid;
+        flex-direction: column;
+    }
+}
